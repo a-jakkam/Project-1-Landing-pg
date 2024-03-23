@@ -1,0 +1,146 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.header,
+.one,
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.one {
+    display: flex;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.button {
+    padding: 5px 25px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.container img {
+    width: 500px;
+    height: 250px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.collage {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+.animal img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.subtext {
+    max-width: 200px;
+    text-align: center  ;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 70px;
+    background-color: #3882f6;
+    padding: 40px;
+    margin: 70px 200px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+.button.two {
+    border-color: white;
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
